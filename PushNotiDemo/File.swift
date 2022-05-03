@@ -1,0 +1,29 @@
+//
+//  File.swift
+//  PushNotiDemo
+//
+//  Created by Terry Kuo on 2022/4/15.
+//
+
+import Foundation
+
+
+struct Constants {
+    static let testTopic = "GA2000"
+    
+    let newPrivateKey = "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCHKT66i/nN0bqV\nmX8Aoia+8Q0HLRyHVMaKXz7Plr3B7F4j3gvL6lxfGChtzVn3tu4mnZQHsCzEBNSA\ndQMQbsJ5d+3xvV49RIQ3ucczNq7fjZXNDqdvcOMhM+JRjmXYyQWC96djb5RIRyze\n8olvdnIrSHGt5DG2zVEOc4E0nVMtQoP8Z+uAoetN56uB8I1JFbpi/bV/o97qoDf3\nTQNDFntN+Z+V+XWE1rIOnUXvXhDHGVGKgftDSeLSomF9kfji1neWVzbtml415Kvp\nfiB75cH5Fk8SK9f1RTK7YuKgV//Wf8+aU4iBKBqpbJAJ0gAANcwvVwt1VrKqKxw2\nv4I+4MyzAgMBAAECggEAAXbxc+e2ERm6NLUhRVpRzX+NiBaK426IPjyc+3aN34RB\nBZDPk5SaY/oTihO6a1mYnWOCFKPp6u/bIPnjoBx10Ad8Km1GZac7QDgA+sLsxIW4\nv1buz+GAcejUMCpjsSSF15mjvzXuJ0BaMfTyh0+DGjP37g31z0jMnY75MfRDJU+P\nWAsB0tQJwYUm03VNxcfOeb7/qvXauFltJ53Czc7uOAKPtUw+yADJvr34KLE/RLZO\nOGCmmDWuzAEJN26TplAe46KzFN47+Ad11aOGHzo56O05UvADI1CGtWCL07LnpbJ8\na/2+pjje/CVQIVzagQD0R9iTXbGHTf+/Y4EcEpQeJQKBgQC9X5j+N3DD/we5PHAx\n6FFWSpUzy04zMpaxzWKg2z8lN6kvXL2IZ1SYZEehs8nJUadW0jLWDggEAi0w/pat\njjY36TeFBLJ9jheeDOlrS0UB0PMxWYAgPxBhw/wScN+bxbyRLRmn+aYauFEvYzWW\n4gi+OD02LcFCqYC3zORtxhe6lQKBgQC2tuBl7OY0JOmN9W2mJZ6/srPRUy148Ci0\nOsSu3Ltjr8b1DPjZQm6qRD3it62G243hewOilbSe0nDIv/E7RNkC5z/CaEgBAOzD\n7YOr2NiTSDtMSPs8bivqiQDYJdWCjJliqbn6A92bXLj8y4F7nSPChFcZIgMGEm4s\nNUlb1r3gJwKBgAw+OvjsgqjZOxmZs7M2TtPiXIUNts+OjLmQCrlVk16Hm7OJLmO8\nMnbrvMnSgtA2LDhrvIekPpZrwZoyS3GLCSxSMpmx9Qwy/InmUczy/9IfPSnKnIL5\nMMjxT8GtdHdwsEE+hjMa68c8dVs38cYAdQo/Po3bJWx24vB/GaGTNgOFAoGAZ2cN\njYFJMl9lcbpgqHOH6NMYYrFg/Z1kW8Mahh9TSXIz9YC24DVxbZibMVBjuvtLyzyT\n7RIuGufbfjDqM3GeIr9+XOYpQbAlTih/qORahNeO/3gZ/rQW1G9ec/TNZUlukOCe\n6HgBlSgfZKlDCRMAJthAdm/CKFCL2yb48imQYWcCgYA9l5uFs2HK9eAq1+IvxokR\nL/cqMVnqZXRyk4PRDbxni3eRilmwYeDo8j8az/OQo3HwM48mkGo+UnXCOV95oep2\nzHjeGU1vKz59wogemsW7lR88q+xl8PmkpQ6RKcN2GO6rkDSqCtgFUOhuF/7/PMgg\nW+wEBTHbbBxXEw9ikoqwCw=="
+    
+    let privateKey2 = "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3zH/OmNpYP74o\nXWM4EpmOqugctNRmw7/TD1Wwcp5bjOJ6QXcXNoOCB6eWFBu/OJ2vDLZydYK08h4L\n0FxkcB5GHO5zGtOiraygni1+w8dJdYclsSlhwFNNI/wzYIpXq38wA7zYp/xtCx7B\nCJmKvqk5z7xwhmHOp7YSv7WC8ToNcXv/PFAEmz5wzjXZHDq7FGDUkXaGR4NPRzcU\nUpSo8PfPziYjnrZVN7h/8S+DV1h8Jo3TUuGI6PfWyqTmlu7V1H+L4vtJ7w76iiiD\nLjOLYBrPEM2R/qWeu9YysO+CyyHmE2I7+772MMAVuxcUfWPJqgaeL+eos8Z+Wb1m\nWXXRGfdHAgMBAAECggEAA9RLFi1rE/GbPAR0eVbLdwR3VFNg8kjCKcFYO+MRCr+m\neRbKE2RVKXoqJkW1YK634k2PTSOTnVxGy5PQvCr1007tzN1Saw4+DXtq+TwjXi1u\n3mMqUiYLb9nMre++xVE5k73pyx3DQMZXIrBtYOc6zibwBx9Vne3/X7UGZBVm7Aa+\nWhtaO+r8vlHraIX4i8Edctb303KF4aIKA8Lazf7tO3GrY2quHCdBdiOgw7Jbl6MY\nOyEZ/VmkwFCpCG2yhVYmOBU3Aoz0TXhgpdkiGXFy3w4UF7KBpCAhXV5i7PuP+WsK\nP7YD84lMriIIxBjuJdt35ScxU53tmu/Td0wTtbiNgQKBgQDz+/CxhSut14TmfeIX\nW8+jH/ahDOpdjGTivLwJjC/XZQN37AEZ7o9QEIoaeqyAiHk9IpA/mb58H78TYUlZ\nzqZr1GNy5U/spFOONFwLkQB5ttEHic6CQy2NI/o/Xg6c0QiyktF4ukXN3UQY82Vy\nxBZShdXdSYwXGK8edGuy1bCrBwKBgQDA2cPsoXrqT9DN55Yu5em7gGd8kCKDg9O7\n1kgHVZO2ClPOJkdXZeoQgL9e9PU5JeiDFWFqPWGC9b1ul+Cya5ZBWJV9QzeqrO54\nvgGtGdggfnqBajVcphuGKTJNREF/Fg0vnR28//La7ZjVwa4c+NMVlhqnVlUqkQIt\ntweiUlIBwQKBgGpMZORi2dHmqQ9m3v9AT+mJPoGSR/Wz+ixTADXErv9QEj/IQf6T\nUjsWyaSZt9hUHUZGbcRX7obTqgL+it+myhkGssFXKQg32/OD2mprpWJiBRYcsy1L\nqWfpudir2P/3jquGjd7kgQ8dDNM2EAf9aKBRkQjVR0S0y28gV9/VfCA3AoGAV4H4\n/2T+y1fQXb5aTYmSF7zaOJGGt7qX10ISiRFx50akZITGFohuP3LMY6AvrfDfoquO\n+pBDsRMlFAvir9NV6OzzWFWp6s5xn2RIim2Rvpzlpde1wwa0spn680inl60/6n0W\nw244mtL5aPVrtkXKMp9cFNZ96sTGAkxtMGC+SYECgYEAnhaFhySBKBXpUrbLs2YR\njAw6O+vlr/gOKnfd4ceAnAxXgUjjjkqz9veEm7Rlk8dD+au4Ye1rlc4TfNmJE0Fv\n+dtdKN3rDZgxuaA3zs2QXjKUb9aMBeeTQc52NFYdtY4YxIPSVm0Gp0OQx6yUEHck\nPRE9zRBC0GyEwzFFVa5aRqw=\n-----END PRIVATE KEY-----\n"
+    
+    
+    let json2: [String: Any] = [
+        
+        "message": [
+             "topic": "GA2000",
+             "notification": [
+               "title": "Sparky says hello!",
+               "body": "Test Messages"
+             ]
+           ]
+    ]
+}
